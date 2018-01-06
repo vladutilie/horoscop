@@ -1,0 +1,175 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Horoscop\n"
+"POT-Creation-Date: 2017-12-21 12:33+0200\n"
+"PO-Revision-Date: 2017-12-21 12:33+0200\n"
+"Last-Translator: \n"
+"Language-Team: Vlăduț Ilie <vladilie94@gmail.com>\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__\n"
+"X-Poedit-SearchPath-0: class-horoscop.php\n"
+"X-Poedit-SearchPath-1: functions.php\n"
+"X-Poedit-SearchPath-2: horoscop.php\n"
+
+#: class-horoscop.php:24 class-horoscop.php:169
+msgid "Horoscope"
+msgstr "Horoscop"
+
+#: class-horoscop.php:25
+msgid "Take me from here and put me in the sidebar to show you what I can."
+msgstr "Ia-mă de aici și pune-mă într-un sidebar să îți arăt ce pot face."
+
+#: class-horoscop.php:95
+msgid "The content of this star sign has not been updated correctly."
+msgstr "Conținutul acestei zodii nu a fost actualizat corect."
+
+#: class-horoscop.php:178
+msgid "Title"
+msgstr "Titlu"
+
+#: class-horoscop.php:182
+msgid "Display"
+msgstr "Afișare"
+
+#: class-horoscop.php:184
+msgid "Icons matrix"
+msgstr "Matrice cu iconițe"
+
+#: class-horoscop.php:185
+msgid "Ordered list"
+msgstr "Listă ordonată"
+
+#: class-horoscop.php:189
+msgid "Animation"
+msgstr "Animație"
+
+#: class-horoscop.php:191
+msgid "Show"
+msgstr "Afișare"
+
+#: class-horoscop.php:192
+msgid "Fade"
+msgstr "Atenuare"
+
+#: class-horoscop.php:193
+msgid "Slide"
+msgstr "Glisare"
+
+#: class-horoscop.php:197
+msgid "Speed"
+msgstr "Viteză"
+
+#: class-horoscop.php:199
+msgid "Slow"
+msgstr "Încet"
+
+#: class-horoscop.php:200
+msgid "Fast"
+msgstr "Rapid"
+
+#: functions.php:77
+msgid "Make an update every six hours"
+msgstr "Actualizează informațiile o dată la șase ore"
+
+#: functions.php:163
+msgid "March 21st - April 20st"
+msgstr "21 martie - 20 aprilie"
+
+#: functions.php:164
+msgid "April 21st - May 21st"
+msgstr "21 aprilie - 21 mai"
+
+#: functions.php:165
+msgid "May 22st - June 21st"
+msgstr "22 mai - 21 iunie"
+
+#: functions.php:166
+msgid "June 22st - July 22st"
+msgstr "22 iunie - 22 iulie"
+
+#: functions.php:167
+msgid "July 23st - August 22st"
+msgstr "23 iulie - 22 august"
+
+#: functions.php:168
+msgid "August 23st - September 22st"
+msgstr "23 august - 22 septembrie"
+
+#: functions.php:169
+msgid "September 23st - October 22st"
+msgstr "23 septembrie - 22 octombrie"
+
+#: functions.php:170
+msgid "October 23st - November 21st"
+msgstr "23 octombrie - 21 noiembrie"
+
+#: functions.php:171
+msgid "November 22st - December 21st"
+msgstr "22 noiembrie - 21 decembrie"
+
+#: functions.php:172
+msgid "December 22st - January 19st"
+msgstr "22 decembrie - 19 ianuarie"
+
+#: functions.php:173
+msgid "January 20st - February 18st"
+msgstr "20 ianuarie - 18 februarie"
+
+#: functions.php:174
+msgid "February 19st - March 20st"
+msgstr "19 februarie - 20 martie"
+
+#: functions.php:195
+msgid "Aries"
+msgstr "Berbec"
+
+#: functions.php:196
+msgid "Taurus"
+msgstr "Taur"
+
+#: functions.php:197
+msgid "Gemini"
+msgstr "Gemeni"
+
+#: functions.php:198
+msgid "Cancer"
+msgstr "Rac"
+
+#: functions.php:199
+msgid "Leo"
+msgstr "Leu"
+
+#: functions.php:200
+msgid "Virgo"
+msgstr "Fecioară"
+
+#: functions.php:201
+msgid "Libra"
+msgstr "Balanță"
+
+#: functions.php:202
+msgid "Scorpio"
+msgstr "Scorpion"
+
+#: functions.php:203
+msgid "Sagittarius"
+msgstr "Săgetător"
+
+#: functions.php:204
+msgid "Capricorn"
+msgstr "Capricorn"
+
+#: functions.php:205
+msgid "Aquarius"
+msgstr "Vărsător"
+
+#: functions.php:206
+msgid "Pisces"
+msgstr "Pești"
