@@ -1,44 +1,49 @@
 ﻿=== Horoscop ===
 Contributors: vladwtz
 Donate link: https://paypal.me/vladutilie/10
-Tags: horoscop, zodiac, zodii, widget, piesă
+Tags: horoscop, zodiac, zodii, horoscope, star, sign
 Requires at least: 2.8.5
-Tested up to: 4.7.5
-Stable tag: 2.5.6
-License: GPLv2
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tested up to: 4.9.1
+Requires PHP: 5.2.4
+Stable tag: 3.9.3
+License: GPLv3
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Probabil cel mai bun modul pentru afișarea horoscopului, pe site.
+Probabil cel mai bun modul pentru horoscop pe site-ul tău.
 
 == Description ==
-Horoscop este în acest moment la cea mai stabilă versiune, oferă acum o interfață foarte interactivă și prietenoasă cu utilizatorul. Activarea, plasarea în sidebar și utilizarea lui sunt foarte simple.
+Horoscop oferă o interfață foarte interactivă și prietenoasă cu utilizatorul. Activarea, plasarea în sidebar și utilizarea lui sunt foarte simple.
 
-Singura cerință pentru ca acest modul să funcționeze, este să existe o versiune de `cURL` instalată pe serverul pe care rulează site-ul.
-După activarea modulului, din meniul cu piese (widget-uri), acesta se va poziționa în sidebar-ul dorit și... voilà.
+După activarea modulului, din meniul cu piese (Appearance -> Widgets), acesta se va poziționa în sidebar-ul dorit și se va configura. Setările sunt intuitive și ușor de configurat.
 
-Informațiile sunt preluate de pe siteul [www.acvaria.com](http://www.acvaria.com), sub acordul scris al autorilor (a se studia termenii din horoscope.php), memorate în baza de date și actualizate la intervale scurte de timp.
+Informațiile sunt preluate de pe siteul [www.acvaria.com](http://www.acvaria.com), cu acordul autorului (mai multe vezi în fișierul horoscop.php), memorate în baza de date și actualizate la intervale scurte de timp.
 
-Dacă îți place ce fac, arată-mi asta printr-o [mică donație](https://paypal.me/vladutilie/10) :) Îți mulțumesc mult!
+Dacă îți place ce fac:
+* poți face o [donație](https://paypal.me/vladutilie/10) pentru a motiva susținerea proiectului;
+* poți face un pull-request la [proiect pe github.com](https://github.com/vladutilie/horoscop) dacă vrei să aduci îmbunătățiri;
+* sau mă poți [contacta](http://vladilie.ro/contact) pentru a colabora :)
 
 == Installation ==
-1. Se dezarhivează fișierul Horoscop.zip.
-2. Folderul dezarhivat se uploadează pe server în locația `wp-content/plugins/`.
-3. Se activează modulul din panoul de control.
-4. Se accesează meniul `Aspect > Piese` și prin metoda `drag and drop` se plasează piesa `Horoscop` în sidebar-ul dorit.
+Fie prin FTP:
+1. Se descarcă modulul și se dezarhivează fișierul Horoscop.zip;
+2. Folderul dezarhivat se uploadează pe server în locația `/wp-content/plugins/`;
+3. Din meniul Plugins se activează „Horoscop”.
+4. Se accesează meniul Appearance > Widgets și prin metoda `Drag and Drop` se plasează widget-ul `Horoscop` în sidebar-ul dorit.
+5. Se glisează în jos setările și se configurează după preferințe.
 
+Fie din panoul de control Wordpress:
+1. Din meniul Plugins > Add New > căutare Horoscop > click pe Install Now la pluginul „Horoscop”;
+2. Click pe Activate.
+3. Se accesează meniul Appearance > Widgets și prin metoda `Drag and Drop` se plasează widget-ul `Horoscop` în sidebar-ul dorit.
+4. Se glisează în jos setările și se configurează după preferințe.
 
 == Frequently Asked Questions ==
 
-= De ce durează mult activarea modulului? =
-Nu-ți face griji! În momentul activării, modulul extrage informațiile necesare pentru zodii de pe site-ul sursă. Sigur nu va dura mai mult de un minut. Depinde de serverul de găzduire și de disponibilitatea resurselor Acvaria.
-
 = De ce în textul zodiei apare „Conținutul acestei zodii nu a fost actualizat corespunzător.”? =
-Există două cauze:
-* fie resursele Acvaria nu oferă informațiile necesare pentru ca modulul să poată fi actualizat: se întâmplă uneori ca Acvaria să nu aibă conținut pentru anumite zodii din motive necunoscute de mine și astfel modulul nu are ce informații să preia,
-* fie serverul de găzduire pe care se află site-ul în care este instalat modulul, nu dispune de funcționalitatea `cURL`: pentru acest lucru luați legătura cu reprezentanții firmei de la care aveți găzduire.
+Există posiblitatea ca resursele Acvaria să nu fi oferit informațiile necesare, în momentul în care s-au făcut actualizările, pentru ca modulul să poată prelua informațiile.
 
-= Alte probleme? =
-Te rog contactează autorul pentru asta. Îți va face cinste cu o bere! ;)
+= Pentru alte probleme =
+Te rog [contactează](http://vladilie.ro/contact) autorul și îți va face cinste cu o bere! ;)
 
 == Screenshots ==
 1. Se folosește metoda `drag and drop` pentru poziționarea piesei.
@@ -47,6 +52,18 @@ Te rog contactează autorul pentru asta. Îți va face cinste cu o bere! ;)
 
 
 == Changelog ==
+
+= 3.9.3 =
+* 05/01/2018 | New features. Happy New Year!
+* S-au adăugat noi efecte de animare pentru citirea zodiilor.
+* S-a îmbunătățit securitatea plugin-ului.
+* Acum plugin-ul poate fi tradus și în alte limbi.
+* S-au făcut îmbunătățiri în ceea ce privește optimizarea.
+* S-a schimbat metoda de preluare a informațiilor de la acvaria.com.
+* Codul a fost adaptat la [Standardul de Codare Wordpress](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/)
+* S-a făcut CSS Minify.
+* Plugin-ul a fost trecut la licență GPLv3.
+* Informațiile despre autor din readme au fost actualizate.
 
 = 2.5.6 =
 * 21/05/2017 | Compatibilitate cu noua versiune de Wordpress.
@@ -111,6 +128,9 @@ Te rog contactează autorul pentru asta. Îți va face cinste cu o bere! ;)
 
 == Upgrade Notice ==
 
+= 3.9.3 =
+05/01/2018 | S-au adus îmbunătățiri majore la nivel de funcționalitate, structură și securitate. A fost introdusă posiblitatea de traducere.
+
 = 2.5.6 =
 20/05/2017 | Compatibilitate cu noul Wordpress 4+, fixarea de bug-uri și modificări de finețe.
 
@@ -137,7 +157,19 @@ August 2012 | Lansare modul.
 
 
 == Despre autor ==
-Aproape absolvent al Universității Politehnica Timişoara, la Facultatea de Automatică și Calculatoare, sunt un Capricorn de 23 de ani, implicat activ în mici proiecte și activități din comunitatea Timișoreană.
-Îmi plac teatrul, muzica, lectura, bloggingul, programarea, călătoriile și natura. Dacă ai o idee frumoasă la care vrei să lucrăm împreună, dă-mi un semn. Cu drag aștept! :)
+Am absolvit Facultatea de Automatică și Calculatoare din cadrul Universității Politehnica Timişoara, iar acum sunt masterand în cadrul Facultății de Științe Economice și Gestiunea Afacerilor de la Universitatea Babeș-Bolyai din Cluj-Napoca.
+Sunt pasionat de teatru, muzică, lectură, blogging, programare, călătorii și natură. Poate și alte lucruri simple.
 
-Cu siguranță pot fi găsit pe [facebook](https://www.facebook.com/i.vladut), [instagram](https://www.instagram.com/vladut.ilie/), [twitter](https://twitter.com/vladilie94), [google+](https://plus.google.com/+Vl%C4%83du%C5%A3Ilie), [linkedin](https://www.linkedin.com/in/vladilie/) sau [gravatar](https://ro.gravatar.com/vladilie94).
+Dacă ai o idee frumoasă la care vrei să lucrăm împreună, dă-mi un semn.
+În acest sens mă poți găsi pe:
+* [Facebook](https://www.facebook.com/i.vladut)
+* [Linkedin](https://www.linkedin.com/in/vladilie/)
+* [GoodReads](https://www.goodreads.com/user/show/68128050-vl-du-ilie)
+* [Instagram](https://www.instagram.com/vladut.ilie/)
+* [Twitter](https://twitter.com/vladilie94)
+* [Google+](https://plus.google.com/+Vl%C4%83du%C5%A3Ilie)
+* [Gravatar](https://ro.gravatar.com/vladilie94).
+sau pe [email](http://vladilie.ro/contact/).
+
+Cu drag aștept! :)
+Icons made by [Freepik](https://www.freepik.com/) from [www.flaticon.com](https://www.flaticon.com/)
