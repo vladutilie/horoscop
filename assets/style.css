@@ -1,0 +1,42 @@
+/**
+ *	Stylesheet file
+ *	@package: Horoscop
+ *	@since: 2.1.8
+ *	@modified: 3.9.3
+ */
+h3#horoscop-sign-title {
+	color: #34495e;
+	cursor: pointer;
+	font-size: 20px;
+	text-align: center;
+}
+
+p#horoscop-sign-subtitle {
+	color: #34495e;
+	font-size: 11px;
+	margin-top: -20px;
+	text-align: center;
+}
+
+#horoscop-sign-content {
+	color: #2c3e50;
+	margin-top: -10px;
+	text-align: center;
+}
+
+#horoscop-sign-list {
+	color: #2c3e50;
+	cursor: pointer;
+	text-align: center;
+}
+
+#horoscop-footer {
+	color: #2c3e50;
+	font-size: 11px;
+	text-align: center;
+}
+
+img.horoscop-sign-widget{
+	margin: 4px;
+	width: 50px;
+}
