@@ -1,167 +1,191 @@
-﻿=== Horoscop ===
+=== Horoscop ===
 Contributors: vladwtz
 Donate link: https://paypal.me/vladutilie/10
-Tags: horoscop, zodiac, zodii, horoscope, star, sign
-Requires at least: 2.8.5
-Tested up to: 4.9.1
+Tags: horoscop, zodiac, zodii, zodie, horoscope, star, sign, widget
+Requires at least: 4.0
+Tested up to: 4.9.5
 Requires PHP: 5.2.4
-Stable tag: 3.9.3
+Stable tag: 5.3.2
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Probabil cel mai bun modul pentru horoscop pe site-ul tău.
+Probably the best horoscope plugin in Romanian language for your website.
 
 == Description ==
-Horoscop oferă o interfață foarte interactivă și prietenoasă cu utilizatorul. Activarea, plasarea în sidebar și utilizarea lui sunt foarte simple.
+Horoscope offers an interactive and friendly UI.
 
-După activarea modulului, din meniul cu piese (Appearance -> Widgets), acesta se va poziționa în sidebar-ul dorit și se va configura. Setările sunt intuitive și ușor de configurat.
+After the plugin activation, place the widget in the site from Widgets' page and *voilà*!
 
-Informațiile sunt preluate de pe siteul [www.acvaria.com](http://www.acvaria.com), cu acordul autorului (mai multe vezi în fișierul horoscop.php), memorate în baza de date și actualizate la intervale scurte de timp.
+The informations are retrieved from [www.acvaria.com](http://www.acvaria.com) in **Romanian language**.
 
-Dacă îți place ce fac:
-* poți face o [donație](https://paypal.me/vladutilie/10) pentru a motiva susținerea proiectului;
-* poți face un pull-request la [proiect pe github.com](https://github.com/vladutilie/horoscop) dacă vrei să aduci îmbunătățiri;
-* sau mă poți [contacta](http://vladilie.ro/contact) pentru a colabora :)
+= If you like what I do: =
+* You can make a [donation](https://paypal.me/vladutilie/10) for supporting the project or bringing me a beer.
+* You can make a pull-request [on github](https://github.com/vladutilie/horoscop) for bringing improvments.
+* Or you can [contact me](http://vladilie.ro/contact) for an interesting collaboration 😊.
 
 == Installation ==
-Fie prin FTP:
-1. Se descarcă modulul și se dezarhivează fișierul Horoscop.zip;
-2. Folderul dezarhivat se uploadează pe server în locația `/wp-content/plugins/`;
-3. Din meniul Plugins se activează „Horoscop”.
-4. Se accesează meniul Appearance > Widgets și prin metoda `Drag and Drop` se plasează widget-ul `Horoscop` în sidebar-ul dorit.
-5. Se glisează în jos setările și se configurează după preferințe.
+= Automated installation =
+1. Download the plugin and unzip it;
+2. Upload the unzipped directory in the `/wp-content/plugins/` location;
+3. From Plugins' page, activate the plugin;
+4. Place the Horoscope widget in the sidebar, from Widgets's page;
+5. Slide down the options and set it up.
 
-Fie din panoul de control Wordpress:
-1. Din meniul Plugins > Add New > căutare Horoscop > click pe Install Now la pluginul „Horoscop”;
-2. Click pe Activate.
-3. Se accesează meniul Appearance > Widgets și prin metoda `Drag and Drop` se plasează widget-ul `Horoscop` în sidebar-ul dorit.
-4. Se glisează în jos setările și se configurează după preferințe.
+= Manual installation =
+1. Click on Add new from Plugins' page and type "Horoscop" in the search box;
+2. Click on Activate;
+3. Go to Widgets's page and place the Horoscope widget in the preffered sidebar;
+4. Slide down the options and set it up.
 
 == Frequently Asked Questions ==
+= Why do I see the message "The content of this star sign has not been updated correctly."? =
+The Acvaria website did not provide the proper resources for updating the information. Try again later.
 
-= De ce în textul zodiei apare „Conținutul acestei zodii nu a fost actualizat corespunzător.”? =
-Există posiblitatea ca resursele Acvaria să nu fi oferit informațiile necesare, în momentul în care s-au făcut actualizările, pentru ca modulul să poată prelua informațiile.
-
-= Pentru alte probleme =
-Te rog [contactează](http://vladilie.ro/contact) autorul și îți va face cinste cu o bere! ;)
+= For other issues =
+Please [contact](http://vladilie.ro/contact) the author and he will bring you a beer for sure! ;)
 
 == Screenshots ==
-1. Se folosește metoda `drag and drop` pentru poziționarea piesei.
-2. Se glisează în jos opțiunile piesei și se setează titlul și modul de afișare.
-3. Afișarea zodiacului.
+1. Using drag and drop for positioning the widget in sidebar.
+2. Sliding down the horoscope widget options for setting it up.
+3. Showing the horoscope.
 
 
 == Changelog ==
+= 5.3.2 =
+*Release date: April 19th, 2018*
+
+* Translations corrections.
+* Readme translated in English language.
+* Prompting user to show credits link for Acvaria.
+* Horoscop class improved
+* Cron job for signs update improved.
+* jQuery updated to v3.3.1.
+* CSS Dashicons enqueuing replaced by a single CSS class.
+* Horoscop SQL table optimized.
+* Removed functions.php file.
+* AJAX implementation for showing signs content.
 
 = 3.9.3 =
-* 05/01/2018 | New features. Happy New Year!
-* S-au adăugat noi efecte de animare pentru citirea zodiilor.
-* S-a îmbunătățit securitatea plugin-ului.
-* Acum plugin-ul poate fi tradus și în alte limbi.
-* S-au făcut îmbunătățiri în ceea ce privește optimizarea.
-* S-a schimbat metoda de preluare a informațiilor de la acvaria.com.
-* Codul a fost adaptat la [Standardul de Codare Wordpress](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/)
-* S-a făcut CSS Minify.
-* Plugin-ul a fost trecut la licență GPLv3.
-* Informațiile despre autor din readme au fost actualizate.
+*Release date: January 1st, 2018*
+
+* New animations for reading the stars.
+* Internationalization plugin.
+* Security improved.
+* Code optimization.
+* Getting content from acvaria.com method has been changed.
+* [Wordpress Coding Standard](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/) has been applied.
+* CSS has been minified.
+* Licence has been changed to GPLv3.
+* Author informations from readme file have been updated.
 
 = 2.5.6 =
-* 21/05/2017 | Compatibilitate cu noua versiune de Wordpress.
-* S-a eliminat un bug ce încurca meniul cu Piese.
-* S-a eliminat un bug ce punea probleme la actualizarea informațiilor ce sunt preluate din surse Acvaria.
-* S-a actualizat versiunea bibliotecii Google jQuery.
-* S-a explicitat eroarea la afișarea textului pentru zodii, în cazul în care informațiile nu pot fi preluate de la Acvaria.
-* S-a testat funcționalitatea cu noua versiune Wordpress 4.0+.
-* S-au modificate mici părți de texte și cod (readaptări la standarde de programare).
-* S-au optimizat tipurile de date ale câmpurilor din baza de date.
-* S-a modificat metoda de actualizare periodică și s-a introdus WP-Cron.
+*Release date: May 21th, 2017*
+
+* Bugfixes.
+* jQuery version updated.
+* An error message has been introduced when the update from Acvaria fails.
+* The plugin has been updated and tested for Wordpress 4.0+.
+* [Wordpress Coding Standard](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/) has been applied.
+* Database table fields have been optimized.
+* Updating method has been changed with one from Wordpress and has been introduced WP-Cron.
 
 = 2.2.9 =
-* 04/09/2014 | Wordpress 4.0 ships today!
-* S-au efectuat verificări pentru ca totul să funcționeze la parametri normali pe noua versiune de Wordpress, 4.0.
-* S-au schimbat mici părți ce țin de standardul de programare și optimizarea codului.
-* Actualizarea informațiilor se face acum și în ziua următoare ultimului update.
+*Release date: September 4th, 2014*
+
+* The plugin has been tested for Wordpress 4.0+.
+* [Wordpress Coding Standard](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/) has been applied.
+* The algorithm for updating the horoscope content has been improved.
 
 = 2.1.8 =
-* 30/07/2014 | Un pas mare spre implementarea jQuery.
-* S-a renunțat la pop-up și s-a introdus afișarea zodiacului direct în site printr-o metodă de slide prin jQuery.
-* A fost elaborată o soluție pentru actualizarea informațiilor, astfel încât să nu se facă cereri la resursele Acvaria de fiecare dată când se dorește citirea zodiacului.
-* Pe lângă această metodă, au fost create alte 4 funcții și un tabel pentru baza de date în ceea ce privește buna funcționare și auto actualizare.
-* Pentru modul se setează time zone-ul specific regiunii Europa/București.
-* A fost modificată descrierea modulului și a altor câteva secțiuni.
-* Codul CSS a fost modificat și îmbunătățit.
-* Structura codului a fost readaptată la standarde.
+*Release date: July 30th, 2014*
+
+* The pop-up windows has been replaced by showing the horoscop in the sidebar.
+* Horoscope texts are cached from now.
+* The timezone is setting up.
+* The description of the plugin has been changed.
+* CSS has been modified and improved.
+* [Wordpress Coding Standard](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/) has been applied.
 
 = 1.8.3 =
-* 04/05/2014 | Probabil ultimul update al modulului - cea mai stabilă versiune.
-* A fost introdusă opțiunea de alegere a modului de afișare a zodiilor: matrice de imagini sau listă ordonată cu zodii.
-* Au fost traduse lunile anului din limba engleză în limba română.
-* Au fost adăugate perioadele din an, pentru fiecare zodie.
-* A fost modificat atât design-ul paginii pop-up ce afișează zodiacul cât și structura sa în mică măsură.
-* Mici părți de cod au fost adaptate standardelor de programare în PHP.
-* A fost limitat riscul apariției uneor erori, în cazul folosirii abuzive a modulului.
-* A fost reformatată informația primită de către resursele Acvaria, astfel încât să nu existe caractere inutile ce pot cauza încărcarea îndelungată a paginii pop-up.
+*Release date: May 4th, 2014*
+
+* Showing stars mode has been improved.
+* Some content modifications.
+* Horoscope periods have been added.
+* Pop-up window design have been redesigned.
+* [Wordpress Coding Standard](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/) has been applied.
+* Security improved.
+* The content retrieved from Acvaria (R) have been improved.
 
 = 1.5.8 =
-* 01/02/2014 | Primul update din 2014: numai bine în noul an!
-* Lista banală cu zodii ce se afișează în sidebar, a fost înlocuită cu imagini sugestive.
-* Structura codului a fost revizuită și adaptată standardelor de programare.
-* Au fost adăugate informații cu privire la drepturile de autor ale Acvaria(R).
-* Au fost schimbate câteva texte din modul și informațiile despre autor.
+*Release date: February 1st, 2014*
+
+* The ordered list of signs has been replaced by a list with images for signs.
+* [Wordpress Coding Standard](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/) has been applied.
+* Copyright information about Acvaria(R) has been added.
+* Author information changed and some texts from plugin.
 
 = 1.4.5 =
-* 11/05/2013 | S-a detectat eroarea principală care se tot raporta în fișierul error_log și s-a rezolvat.
-* A fost introdus fișierul widget.php care a preluat funcțiile fișierului horoscop.php, devenind fișier de bază al modulului.
-* Fișierul horoscop.php a devenit fișier secundar.
-* A fost modificată structura codului.
-* Funcțiile din clasa `Horoscop` au fost revizuite și îmbunătățite.
-* Modulul se poate activa doar cu modulul PHP `allow_url_fopen` funcțional pe serverul de găzduire.
-* S-a restricționat accesul direct către modul.
-* La dezactivare, se curăță toate informațiile adăugate inițial, de modul, în baza de date.
+*Release date: May 11th, 2013*
+
+* Plugin structure modified.
+* Code structure modified.
+* Functions have been reviewed and improved.
+* The plugin can be activated only with `allow_url_fopen` activated.
+* Security improved.
+* Plugin deactivation hook functions created to clear all data.
 
 = 1.0.1 =
-* 24/08/2012 | Schimbarea linkului din fereastra pop-up de la citirea zodiacului, de la /wp-content/plugins/horoscop/horoscop.php?zodie=(zodie) la /horoscop/(zodie).
+*Release date: August 24th, 2012*
+
+* The link from pop-up window has been changed: /wp-content/plugins/horoscop/horoscop.php?zodie=(zodie) --> /horoscop/(zodie).
 
 = 1.0.0 =
-* August 2012 | Lansare modul.
+*Release date: August, 2012*
+
+* Launching plugin.
 
 
 == Upgrade Notice ==
 
+= 5.3.2 =
+AJAX implementation and other small code features (reorganizing; SQL, CSS, PHP optimizations; jQuery update; WP Cron improved).
+
 = 3.9.3 =
-05/01/2018 | S-au adus îmbunătățiri majore la nivel de funcționalitate, structură și securitate. A fost introdusă posiblitatea de traducere.
+Functionality, structure and security improved. Internationalization plugin.
 
 = 2.5.6 =
-20/05/2017 | Compatibilitate cu noul Wordpress 4+, fixarea de bug-uri și modificări de finețe.
+Bugfixes and compatibility adapted to Wordpress 4.0+.
 
 = 2.2.9 =
-04/09/2014 | Pregătiri pentru Wordpress 4.0. Yuhuuu!
+Plugin testes on Wordpress 4.0. Yasss!
 
 = 2.1.8 =
-30/07/2014 | S-a renunțat la afișarea zodiacului în pop-up și s-a trecut la afișarea sa direct în site.
+The pop-up windows has been replaced by showing the horoscop in the sidebar.
 
 = 1.8.3 =
-04/05/2014 | Probabil ultimul update. Aceasta este considerată cea mai stabilă versiune.
+Probably the most stable version.
 
 = 1.5.8 =
-01/02/2014 | Lista horoscopului afișată pe site, a fost înlocuită de o listă cu imagini sugestive pentru zodii.
+The ordered list of signs has been replaced by a list with images for signs.
 
 = 1.4.5 =
-11/05/2013 | S-au rezolvat buguri și s-au refăcut funcțiile, toate modificările fiind aduse în favoarea optimizării și flexibilității codului.
+Buxfixes and code optimization.
 
 = 1.0.1 =
-24/08/2012 | Simplificarea și omogenizarea linkului din fereastra pop-up de la citirea zodiacului.
+Simplifying the link from the pop-up window.
 
 = 1.0.0 =
-August 2012 | Lansare modul.
+Launching plugin.
 
 
-== Despre autor ==
-Am absolvit Facultatea de Automatică și Calculatoare din cadrul Universității Politehnica Timişoara, iar acum sunt masterand în cadrul Facultății de Științe Economice și Gestiunea Afacerilor de la Universitatea Babeș-Bolyai din Cluj-Napoca.
-Sunt pasionat de teatru, muzică, lectură, blogging, programare, călătorii și natură. Poate și alte lucruri simple.
+== About the author ==
+I have graduated Faculty of Automatics and Computers from Politehnica University of Timişoara and now I am a master student to The Faculty of Economics and Business Administration from Babeș-Bolyai University in Cluj-Napoca.
+I have passion for theater, music, books, blogging, programming, travels and nature. And maybe other simple things.
 
-Dacă ai o idee frumoasă la care vrei să lucrăm împreună, dă-mi un semn.
-În acest sens mă poți găsi pe:
+If you have a nice idea on which we can work together, let me know.
+You can find me on:
+
 * [Facebook](https://www.facebook.com/i.vladut)
 * [Linkedin](https://www.linkedin.com/in/vladilie/)
 * [GoodReads](https://www.goodreads.com/user/show/68128050-vl-du-ilie)
@@ -169,7 +193,7 @@ Dacă ai o idee frumoasă la care vrei să lucrăm împreună, dă-mi un semn.
 * [Twitter](https://twitter.com/vladilie94)
 * [Google+](https://plus.google.com/+Vl%C4%83du%C5%A3Ilie)
 * [Gravatar](https://ro.gravatar.com/vladilie94).
-sau pe [email](http://vladilie.ro/contact/).
+or [email](http://vladilie.ro/contact/).
 
-Cu drag aștept! :)
-Icons made by [Freepik](https://www.freepik.com/) from [www.flaticon.com](https://www.flaticon.com/)
+I'm waiting for your message! :)
+Icons made by [Freepik](https://www.freepik.com/) from [www.flaticon.com](https://www.flaticon.com/).
