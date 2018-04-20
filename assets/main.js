@@ -2,7 +2,7 @@
  * main.js v1.0.0 (build:20180419)
  * jQuery for Horoscop Wordpress plugin
  * https://wordpress.org/plugins/horoscop/
- * Copyright (c) 2018 VlÄduČ Ilie (@vladwtz)
+ * Copyright (c) 2018 Vlăduț Ilie (@vladwtz)
  * https://vladilie.ro
  */
 jQuery(document).ready(function($) {
