@@ -1,0 +1,212 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Horoscope\n"
+"POT-Creation-Date: 2018-05-23 16:32+0300\n"
+"PO-Revision-Date: 2018-05-23 16:33+0300\n"
+"Last-Translator: Vlăduț Ilie <vladilie94@gmail.com>\n"
+"Language-Team: Vlăduț Ilie <vladilie94@gmail.com>\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: class-horoscope.php\n"
+"X-Poedit-SearchPath-1: horoscope.php\n"
+
+#: class-horoscope.php:28 class-horoscope.php:201
+msgid "Horoscope"
+msgstr "Horoscop"
+
+#: class-horoscope.php:29
+msgid "Put me in the sidebar to show you what I can."
+msgstr "Pune-mă într-un sidebar să îți arăt ce pot face."
+
+#: class-horoscope.php:56
+msgid "Aries"
+msgstr "Berbec"
+
+#: class-horoscope.php:57
+msgid "March 21st - April 20th"
+msgstr "21 martie - 20 aprilie"
+
+#: class-horoscope.php:60
+msgid "Taurus"
+msgstr "Taur"
+
+#: class-horoscope.php:61
+msgid "April 21st - May 21st"
+msgstr "21 aprilie - 21 mai"
+
+#: class-horoscope.php:64
+msgid "Gemini"
+msgstr "Gemeni"
+
+#: class-horoscope.php:65
+msgid "May 22nd - June 21st"
+msgstr "22 mai - 21 iunie"
+
+#: class-horoscope.php:68
+msgid "Cancer"
+msgstr "Rac"
+
+#: class-horoscope.php:69
+msgid "June 22nd - July 22nd"
+msgstr "22 iunie - 22 iulie"
+
+#: class-horoscope.php:72
+msgid "Leo"
+msgstr "Leu"
+
+#: class-horoscope.php:73
+msgid "July 23rd - August 22nd"
+msgstr "23 iulie - 22 august"
+
+#: class-horoscope.php:76
+msgid "Virgo"
+msgstr "Fecioară"
+
+#: class-horoscope.php:77
+msgid "August 23rd - September 22nd"
+msgstr "23 august - 22 septembrie"
+
+#: class-horoscope.php:80
+msgid "Libra"
+msgstr "Balanță"
+
+#: class-horoscope.php:81
+msgid "September 23rd - October 22nd"
+msgstr "23 septembrie - 22 octombrie"
+
+#: class-horoscope.php:84
+msgid "Scorpio"
+msgstr "Scorpion"
+
+#: class-horoscope.php:85
+msgid "October 23rd - November 21st"
+msgstr "23 octombrie - 21 noiembrie"
+
+#: class-horoscope.php:88
+msgid "Sagittarius"
+msgstr "Săgetător"
+
+#: class-horoscope.php:89
+msgid "November 22nd - December 21st"
+msgstr "22 noiembrie - 21 decembrie"
+
+#: class-horoscope.php:92
+msgid "Capricorn"
+msgstr "Capricorn"
+
+#: class-horoscope.php:93
+msgid "December 22nd - January 19th"
+msgstr "22 decembrie - 19 ianuarie"
+
+#: class-horoscope.php:96
+msgid "Aquarius"
+msgstr "Vărsător"
+
+#: class-horoscope.php:97
+msgid "January 20th - February 18th"
+msgstr "20 ianuarie - 18 februarie"
+
+#: class-horoscope.php:100
+msgid "Pisces"
+msgstr "Pești"
+
+#: class-horoscope.php:101
+msgid "February 19th - March 20th"
+msgstr "19 februarie - 20 martie"
+
+#: class-horoscope.php:156
+msgid "Icon"
+msgstr "Iconiță"
+
+#: class-horoscope.php:211
+msgid "Title"
+msgstr "Titlu"
+
+#: class-horoscope.php:215
+msgid "Display"
+msgstr "Afișare"
+
+#: class-horoscope.php:217
+msgid "Icons matrix"
+msgstr "Matrice cu iconițe"
+
+#: class-horoscope.php:218
+msgid "Ordered list"
+msgstr "Listă ordonată"
+
+#: class-horoscope.php:222
+msgid "Animation"
+msgstr "Animație"
+
+#: class-horoscope.php:224
+msgid "Show"
+msgstr "Afișare"
+
+#: class-horoscope.php:225
+msgid "Fade"
+msgstr "Atenuare"
+
+#: class-horoscope.php:226
+msgid "Slide"
+msgstr "Glisare"
+
+#: class-horoscope.php:230
+msgid "Speed"
+msgstr "Viteză"
+
+#: class-horoscope.php:232
+msgid "Slow"
+msgstr "Încet"
+
+#: class-horoscope.php:233
+msgid "Fast"
+msgstr "Rapid"
+
+#: class-horoscope.php:238
+msgid "Check it for showing the acvaria.com credits in the widget."
+msgstr "Bifează căsuța pentru a afișa credite site-ului acvaria.com."
+
+#: class-horoscope.php:238
+msgid "Show a link to Acvaria&reg; site."
+msgstr "Afișează un link spre site-ul Acvaria&reg;."
+
+#: class-horoscope.php:382
+msgid "The chosen sign is not correct. Reload the page and try again."
+msgstr "Zodia a fost aleasă greșit. Reîncarcă pagina și încearcă din nou."
+
+#: class-horoscope.php:397
+msgid "The content of this star sign has not been updated correctly."
+msgstr "Conținutul acestei zodii nu a fost actualizat corect."
+
+#: class-horoscope.php:405
+#, php-format
+msgid "%1$sTaken with care from %2$s"
+msgstr "%1$sPreluat cu grijă de la %2$s"
+
+#: horoscope.php:100
+msgid ""
+"The Horoscope plugin does not collect and/or process any personal data of "
+"users. The only data which it processes and collects are related to the "
+"strictly functionality of the plugin (such data being the name of the "
+"horoscope's stars and its predictions, data retrieved from acvaria.com "
+"through the free agreement of the third party)."
+msgstr ""
+"Modulul Horoscop nu colectează și/sau nu procesează nicio informație cu "
+"caracter personal a utilizatorilor. Singurele informații pe care le "
+"procesează și le colectează sunt legate de funcționalitatea strictă a "
+"modulului (aceste date sunt numelele zodiilor din horoscop și previziunile "
+"lor, date preluate de la acvaria.com prin acordul liber al terței părți)."
+
+#: horoscope.php:101
+msgid "Horoscope plugin"
+msgstr "Modul Horoscop"
+
+#~ msgid "Make an update every six hours"
+#~ msgstr "Actualizează informațiile o dată la șase ore"

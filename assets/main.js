@@ -1,34 +1,34 @@
 /**
- * main.js v1.0.0 (build:20180419)
- * jQuery for Horoscop Wordpress plugin
+ * main.js v1.0.1 (build: 20180523)
+ * jQuery for Horoscope Wordpress plugin
  * https://wordpress.org/plugins/horoscop/
- * Copyright (c) 2018 Vlăduț Ilie (@vladwtz)
+ * Copyright (c) 2018 Vlăduț Ilie (https://profiles.wordpress.org/vladwtz)
  * https://vladilie.ro
  */
-jQuery(document).ready(function($) {
-	$("#horoscop-sign-list a", "#horoscop-widget").on("click", function(e) {
+jQuery( document ).ready( function( $ ) {
+	$( '#horoscope-sign-list a', '#horoscope-widget' ).on( 'click', function( e ) {
 		e.preventDefault();
-		var sign = $(this),
+		var sign = $( this ),
 			form = new FormData(),
-			sign_code = sign.attr("data-code");
-		form.append("action", "horoscop_sign_content");
-		form.append("nonce", horoscop_sign_content.nonce);
-		form.append("sign", sign_code);
+			sign_code = sign.attr( 'data-code' );
+		form.append( 'action', 'horoscope_sign_content' );
+		form.append( 'nonce', horoscope_sign_content.nonce );
+		form.append( 'sign', sign_code );
 		$.ajax({
-			url: horoscop_sign_content.ajaxurl,
-			type: "POST",
+			url: horoscope_sign_content.ajaxurl,
+			type: 'POST',
 			data: form,
-			dataType: "json",
+			dataType: 'json',
 			processData: false,
 			contentType: false,
-			success: function(response, textStatus, jqXHR) {
+			success: function( response, textStatus, jqXHR ) {
 				if( response.success ) {
 					if ( undefined !== response.data.error ) {
 						alert( response.data.error );
 					} else {
-						$("#horoscop-widget").append('<div id="horoscop-content" style="display:none;"></div><!-- /#horoscop-content -->');
-						var list = $('#horoscop-sign-list'),
-							content = $('#horoscop-content'),
+						$( '#horoscope-widget' ).append( '<div id="horoscope-content" style="display:none;"></div><!-- /#horoscope-content -->' );
+						var list = $( '#horoscope-sign-list' ),
+							content = $( '#horoscope-content' ),
 							animation = response.data.ANIMATION,
 							speed = response.data.SPEED;
 						content.empty().html( response.data.HTML );
@@ -57,12 +57,12 @@ jQuery(document).ready(function($) {
 			error: function( jqXHR, textStatus, errorThrown ) {
 				//console.log( errorThrown );
 			},
-			complete: function(response) {
-				var list = $('#horoscop-sign-list'),
-					content = $('#horoscop-content'),
+			complete: function( response ) {
+				var list = $( '#horoscope-sign-list' ),
+					content = $( '#horoscope-content' ),
 					animation = response.responseJSON.data.ANIMATION,
 					speed = response.responseJSON.data.SPEED;
-				content.on("click", "#horoscop-sign-title", function() {
+				content.on( 'click', '#horoscope-sign-title', function() {
 					switch ( animation ) {
 						case 0: content.hide( speed, function() {
 							list.show( speed );

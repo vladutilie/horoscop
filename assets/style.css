@@ -1,49 +1,49 @@
 /**
  *	Stylesheet file
- *	@package: Horoscop
+ *	@package: Horoscope
  *	@since: 2.1.8
- *	@modified: 5.3.2
+ *	@modified: 5.4.7
  */
-#horoscop-widget h3#horoscop-sign-title {
+#horoscope-widget h3#horoscope-sign-title {
 	cursor: pointer;
 	font-size: 18pt;
 	text-align: center;
 }
 
-#horoscop-widget  p#horoscop-sign-subtitle {
+#horoscope-widget p#horoscope-sign-subtitle {
 	font-size: 10pt;
 	text-align: center;
 }
 
-#horoscop-widget p#horoscop-sign-content {
+#horoscope-widget p#horoscope-sign-content {
 	text-align: center;
 }
 
-#horoscop-widget #horoscop-sign-list {
+#horoscopewidget #horoscope-sign-list {
 	cursor: pointer;
 	text-align: left;
 }
 
-#horoscop-widget #horoscop-credits {
+#horoscope-widget #horoscope-credits {
 	font-size: 8pt;
 	text-align: center;
 }
 
-#horoscop-widget img.horoscop-sign-widget{
+#horoscope-widget img.horoscope-sign-widget{
 	margin: 4px;
 	width: 20%;
 }
 
-#horoscop-widget i.horoscop-left-arrow {
-	border: solid;
+#horoscope-widget i.horoscope-left-arrow {
 	border-width: 0 1px 1px 0;
+	border: solid;
 	display: inline-block;
-	padding: 4px;
 	margin: 2px 8px;
-	vertical-align: middle;
+	padding: 4px;
 	transform: rotate(135deg);
-	-webkit-transform: rotate(135deg);
-	-ms-tranform: rotate(135deg);
+	vertical-align: middle;
 	-moz-tranform: rotate(135deg);
+	-ms-tranform: rotate(135deg);
 	-o-tranform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
 }

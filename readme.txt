@@ -1,11 +1,11 @@
-=== Horoscop ===
+﻿=== Horoscope ===
 Contributors: vladwtz
 Donate link: https://paypal.me/vladutilie/10
 Tags: horoscop, zodiac, zodii, zodie, horoscope, star, sign, widget
 Requires at least: 4.0
-Tested up to: 4.9.5
+Tested up to: 4.9.6
 Requires PHP: 5.2.4
-Stable tag: 5.3.2
+Stable tag: 5.4.7
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -18,8 +18,7 @@ After the plugin activation, place the widget in the site from Widgets' page and
 
 The informations are retrieved from [www.acvaria.com](http://www.acvaria.com) in **Romanian language**.
 
-= If you like what I do: =
-* You can make a [donation](https://paypal.me/vladutilie/10) for supporting the project or bringing me a beer.
+= If you like the project: =
 * You can make a pull-request [on github](https://github.com/vladutilie/horoscop) for bringing improvments.
 * Or you can [contact me](http://vladilie.ro/contact) for an interesting collaboration 😊.
 
@@ -42,7 +41,7 @@ The informations are retrieved from [www.acvaria.com](http://www.acvaria.com) in
 The Acvaria website did not provide the proper resources for updating the information. Try again later.
 
 = For other issues =
-Please [contact](http://vladilie.ro/contact) the author and he will bring you a beer for sure! ;)
+Please [contact](https://profiles.wordpress.org/vladwtz) the author and he will bring you a beer for sure! ;)
 
 == Screenshots ==
 1. Using drag and drop for positioning the widget in sidebar.
@@ -51,6 +50,15 @@ Please [contact](http://vladilie.ro/contact) the author and he will bring you a 
 
 
 == Changelog ==
+= 5.4.7 =
+*Release date: May 23th, 2018*
+
+* Notes about [GDPR](http://ec.europa.eu/justice/smedataprotect/index_en.htm) (General Data Protection Regulations) added.
+* Fixed some translations strings and the textdomain modified.
+* [Wordpress Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/) has been applied.
+* Readme updated.
+* Migration to HTTPS for the Horoscope source.
+
 = 5.3.2 =
 *Release date: April 19th, 2018*
 
@@ -137,16 +145,17 @@ Please [contact](http://vladilie.ro/contact) the author and he will bring you a 
 
 = 1.0.1 =
 *Release date: August 24th, 2012*
-
 * The link from pop-up window has been changed: /wp-content/plugins/horoscop/horoscop.php?zodie=(zodie) --> /horoscop/(zodie).
 
 = 1.0.0 =
 *Release date: August, 2012*
-
 * Launching plugin.
 
 
 == Upgrade Notice ==
+
+= 5.4.7 =
+GDPR compliance, small code optimizations, testing with WordPress 4.9.6.
 
 = 5.3.2 =
 AJAX implementation and other small code features (reorganizing; SQL, CSS, PHP optimizations; jQuery update; WP Cron improved).
@@ -184,16 +193,7 @@ I have graduated Faculty of Automatics and Computers from Politehnica University
 I have passion for theater, music, books, blogging, programming, travels and nature. And maybe other simple things.
 
 If you have a nice idea on which we can work together, let me know.
-You can find me on:
-
-* [Facebook](https://www.facebook.com/i.vladut)
-* [Linkedin](https://www.linkedin.com/in/vladilie/)
-* [GoodReads](https://www.goodreads.com/user/show/68128050-vl-du-ilie)
-* [Instagram](https://www.instagram.com/vladut.ilie/)
-* [Twitter](https://twitter.com/vladilie94)
-* [Google+](https://plus.google.com/+Vl%C4%83du%C5%A3Ilie)
-* [Gravatar](https://ro.gravatar.com/vladilie94).
-or [email](http://vladilie.ro/contact/).
-
+You can find me on my [WordPress profile](https://profiles.wordpress.org/vladwtz).
 I'm waiting for your message! :)
+
 Icons made by [Freepik](https://www.freepik.com/) from [www.flaticon.com](https://www.flaticon.com/).
