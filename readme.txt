@@ -20,7 +20,7 @@ The informations are retrieved from [www.acvaria.com](http://www.acvaria.com) in
 
 = If you like the project: =
 * You can make a pull-request [on github](https://github.com/vladutilie/horoscop) for bringing improvments.
-* Or you can [contact me](http://vladilie.ro/contact) for an interesting collaboration 😊.
+* Or you can [contact me](https://profiles.wordpress.org/vladwtz) for an interesting collaboration 😊.
 
 == Installation ==
 = Automated installation =
@@ -145,10 +145,12 @@ Please [contact](https://profiles.wordpress.org/vladwtz) the author and he will 
 
 = 1.0.1 =
 *Release date: August 24th, 2012*
+
 * The link from pop-up window has been changed: /wp-content/plugins/horoscop/horoscop.php?zodie=(zodie) --> /horoscop/(zodie).
 
 = 1.0.0 =
 *Release date: August, 2012*
+
 * Launching plugin.
 
 
