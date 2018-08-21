@@ -5,7 +5,7 @@ Tags: horoscop, zodiac, zodii, zodie, horoscope, star, sign, widget
 Requires at least: 4.0
 Tested up to: 4.9.6
 Requires PHP: 5.2.4
-Stable tag: 5.4.7
+Stable tag: 5.5.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -20,7 +20,7 @@ The informations are retrieved from [www.acvaria.com](http://www.acvaria.com) in
 
 = If you like the project: =
 * You can make a pull-request [on github](https://github.com/vladutilie/horoscop) for bringing improvments.
-* Or you can [contact me](https://profiles.wordpress.org/vladwtz) for an interesting collaboration 😊.
+* Or you can [contact me](http://vladilie.ro/contact) for an interesting collaboration 😊.
 
 == Installation ==
 = Automated installation =
@@ -50,6 +50,12 @@ Please [contact](https://profiles.wordpress.org/vladwtz) the author and he will 
 
 
 == Changelog ==
+= 5.5.1 =
+*Release date: August 21st, 2018*
+
+* Restructuring code.
+* Minor security and optimization updates.
+
 = 5.4.7 =
 *Release date: May 23th, 2018*
 
@@ -73,121 +79,17 @@ Please [contact](https://profiles.wordpress.org/vladwtz) the author and he will 
 * Removed functions.php file.
 * AJAX implementation for showing signs content.
 
-= 3.9.3 =
-*Release date: January 1st, 2018*
-
-* New animations for reading the stars.
-* Internationalization plugin.
-* Security improved.
-* Code optimization.
-* Getting content from acvaria.com method has been changed.
-* [Wordpress Coding Standard](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/) has been applied.
-* CSS has been minified.
-* Licence has been changed to GPLv3.
-* Author informations from readme file have been updated.
-
-= 2.5.6 =
-*Release date: May 21th, 2017*
-
-* Bugfixes.
-* jQuery version updated.
-* An error message has been introduced when the update from Acvaria fails.
-* The plugin has been updated and tested for Wordpress 4.0+.
-* [Wordpress Coding Standard](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/) has been applied.
-* Database table fields have been optimized.
-* Updating method has been changed with one from Wordpress and has been introduced WP-Cron.
-
-= 2.2.9 =
-*Release date: September 4th, 2014*
-
-* The plugin has been tested for Wordpress 4.0+.
-* [Wordpress Coding Standard](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/) has been applied.
-* The algorithm for updating the horoscope content has been improved.
-
-= 2.1.8 =
-*Release date: July 30th, 2014*
-
-* The pop-up windows has been replaced by showing the horoscop in the sidebar.
-* Horoscope texts are cached from now.
-* The timezone is setting up.
-* The description of the plugin has been changed.
-* CSS has been modified and improved.
-* [Wordpress Coding Standard](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/) has been applied.
-
-= 1.8.3 =
-*Release date: May 4th, 2014*
-
-* Showing stars mode has been improved.
-* Some content modifications.
-* Horoscope periods have been added.
-* Pop-up window design have been redesigned.
-* [Wordpress Coding Standard](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/) has been applied.
-* Security improved.
-* The content retrieved from Acvaria (R) have been improved.
-
-= 1.5.8 =
-*Release date: February 1st, 2014*
-
-* The ordered list of signs has been replaced by a list with images for signs.
-* [Wordpress Coding Standard](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/) has been applied.
-* Copyright information about Acvaria(R) has been added.
-* Author information changed and some texts from plugin.
-
-= 1.4.5 =
-*Release date: May 11th, 2013*
-
-* Plugin structure modified.
-* Code structure modified.
-* Functions have been reviewed and improved.
-* The plugin can be activated only with `allow_url_fopen` activated.
-* Security improved.
-* Plugin deactivation hook functions created to clear all data.
-
-= 1.0.1 =
-*Release date: August 24th, 2012*
-
-* The link from pop-up window has been changed: /wp-content/plugins/horoscop/horoscop.php?zodie=(zodie) --> /horoscop/(zodie).
-
-= 1.0.0 =
-*Release date: August, 2012*
-
-* Launching plugin.
-
 
 == Upgrade Notice ==
+
+= 5.5.1 =
+Minor security and optimization updates.
 
 = 5.4.7 =
 GDPR compliance, small code optimizations, testing with WordPress 4.9.6.
 
 = 5.3.2 =
 AJAX implementation and other small code features (reorganizing; SQL, CSS, PHP optimizations; jQuery update; WP Cron improved).
-
-= 3.9.3 =
-Functionality, structure and security improved. Internationalization plugin.
-
-= 2.5.6 =
-Bugfixes and compatibility adapted to Wordpress 4.0+.
-
-= 2.2.9 =
-Plugin testes on Wordpress 4.0. Yasss!
-
-= 2.1.8 =
-The pop-up windows has been replaced by showing the horoscop in the sidebar.
-
-= 1.8.3 =
-Probably the most stable version.
-
-= 1.5.8 =
-The ordered list of signs has been replaced by a list with images for signs.
-
-= 1.4.5 =
-Buxfixes and code optimization.
-
-= 1.0.1 =
-Simplifying the link from the pop-up window.
-
-= 1.0.0 =
-Launching plugin.
 
 
 == About the author ==
