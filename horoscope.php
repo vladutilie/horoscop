@@ -114,6 +114,7 @@ class Horoscope {
 	 */
 	public function activate() {
 		global $wpdb;
+		$wpdb->query( "DROP TABLE IF EXISTS {$wpdb->prefix}horoscope_cache" );
 		$wpdb->query( "DROP TABLE IF EXISTS {$wpdb->prefix}horoscope" );
 		$query = "CREATE TABLE {$wpdb->prefix}horoscope (
 				`sign` char(10) NOT NULL,
